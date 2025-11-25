@@ -3,7 +3,7 @@ import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 const App = () => {
   return (
-    <main className="bg-black">
+    <main className="bg-black overflow-x-hidden">
       <NavBar />
       <Hero  />
       <Highlights />
