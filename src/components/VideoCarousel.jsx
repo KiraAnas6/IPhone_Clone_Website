@@ -102,7 +102,7 @@ const VideoCarousel = () => {
         startPlay && videoRef.current[videoId].play();
       }
     }
-  }, [startPlay, videoId, isPlaying, loadedData]);
+  }, [startPlay, videoId, isPlaying]);
 
   const handleProcess = (type, i) => {
     switch (type) {
